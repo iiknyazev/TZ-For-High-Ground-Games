@@ -1,0 +1,21 @@
+# Visual Studio Code и Visual Studio файлы
+.vscode/
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Компилированные файлы
+bin/
+obj/
+
+# Файлы логов
+*.log
+
+# NuGet пакеты
+packages/
+
+# Для .NET Core и .NET 5+
+bin/
+obj/
