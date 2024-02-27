@@ -5,8 +5,8 @@ namespace ServiceLibrary.ReplacementAlgorithmStrategy;
 public class ReplacementWithCompositeDivider : ISequenceHandlerStrategy
 {
     public Dictionary<int, string> SequenceForDivider { get; private set; }
-    public ReplacementWithCompositeDivider(Dictionary<int, string> dividersToReplacementSequence)
-        => SequenceForDivider = dividersToReplacementSequence;
+    public ReplacementWithCompositeDivider(Dictionary<int, string> sequenceForDivider)
+        => SequenceForDivider = sequenceForDivider;
 
     private bool IsCompositeDivider(int divider)
     {
