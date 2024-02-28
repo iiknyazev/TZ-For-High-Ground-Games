@@ -6,7 +6,7 @@ namespace ServiceLibrary;
 
 public class Service
 {
-    public ISequenceHandlerStrategy Algorithm { get; private set; }
+    public readonly ISequenceHandlerStrategy Algorithm;
 
     public Service(ISequenceHandlerStrategy algorithm)
         => Algorithm = algorithm;
